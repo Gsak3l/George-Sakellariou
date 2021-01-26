@@ -5,22 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
-import { ExperiencesComponent } from './components/experiences/experiences.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { FeaturedComponent } from './components/featured/featured.component';
+import { WorkEducationComponent } from './components/work-education/work-education.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    ExperiencesComponent,
     PortfolioComponent,
     ContactComponent,
     NavigationComponent,
     FeaturedComponent,
+    WorkEducationComponent,
   ],
   imports: [
     BrowserModule,
