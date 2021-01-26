@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "george-sakellariou"
+    }
+  },
+  "defaultProject": "george-sakellariou",
+  "cli": {
+    "analytics": "6b6f9488-50ea-42ae-a033-8164bc09e797"
+  }
 }
