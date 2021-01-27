@@ -3375,6 +3375,7 @@ li .fa {
     ==============
 */
 .mh-service .mh-service-item {
+  text-align: center;
   padding: 20px;
   border-radius: 4px;
 }
