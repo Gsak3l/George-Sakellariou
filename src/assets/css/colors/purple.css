@@ -1,81 +1,81 @@
 .new .navbar-toggler .icon, .new .navbar-toggler .icon::after, .new .navbar-toggler .icon::before {
-  background-color: #E91E63;
-}
-
-.mh-experince .mh-education-deatils .mh-education-item h4 a {
-  color: #E91E63;
-}
-
-.mh-work .mh-experience-deatils .mh-work-item h4 a {
-  color: #E91E63;
+  background-color: #a97afd;
 }
 
 .white-vertion .page-item.active .page-link {
-  color: #E91E63;
+  color: #a97afd;
 }
 
 .dark-vertion .page-item.active .page-link {
-  color: #E91E63;
+  color: #a97afd;
 }
 
 .mh-header .navbar-nav li a:hover {
-  color: #E91E63;
+  color: #a97afd;
 }
 
 .mh-home-2 .mh-header-info ul.mh-home-contact li:hover .fa {
-  color: #E91E63;
+  color: #a97afd;
 }
 
 .mh-home .mh-header-info .mh-promo span {
-  background-color: #E91E63;
+  background-color: #a97afd;
 }
 
 .mh-home .mh-header-info ul li:hover .fa {
-  color: #E91E63;
+  color: #a97afd;
 }
 
 .mh-about-tag ul li span {
-  border: 1px solid #E91E63;
+  border: 1px solid #a97afd;
 }
 
 .mh-about-tag ul li span:hover {
-  background-color: #E91E63;
+  background-color: #a97afd;
 }
 
 .mh-progress path:nth-child(2) {
-  stroke: #E91E63;
+  stroke: #a97afd;
 }
 
 .candidatos .parcial .percentagem {
-  background: #E91E63;
+  background: #a97afd;
 }
 
 .mh-experince .mh-education-deatils .mh-education-item .mh-eduyear {
-  color: #E91E63;
+  color: #a97afd;
 }
 
 .mh-work .mh-experience-deatils .mh-work-item .mh-eduyear {
-  color: #E91E63;
+  color: #a97afd;
+}
+
+.mh-experince .mh-education-deatils .mh-education-item h4 a {
+  color: #a97afd;
+}
+
+.mh-work .mh-experience-deatils .mh-work-item h4 a {
+  color: #a97afd;
 }
 
 .portfolio-nav ul li:hover {
-  color: #E91E63;
+  color: #a97afd;
 }
 
 .portfolio-nav ul li.active {
-  color: #E91E63;
+  color: #a97afd;
 }
 
 .mh-pricing .mh-pricing:hover .btn {
-  background-color: #d81558;
+  background-color: #9961fd;
 }
 
 .mh-pricing .mh-pricing .fa {
-  color: #f7a9c4;
+  color: white;
 }
 
 .mh-pricing .mh-pricing h5 {
-  color: #E91E63;
+  color: #a97afd;
 }
 
 .mh-blog .mh-blog-item .blog-inner h2 a {
@@ -83,110 +83,110 @@
 }
 
 .mh-blog .mh-blog-item .blog-inner a {
-  color: #E91E63;
+  color: #a97afd;
 }
 
 .mh-blog .mh-blog-item h2 {
-  color: #E91E63;
+  color: #a97afd;
 }
 
 .mh-blog .mh-blog-item h2 a {
-  color: #E91E63;
+  color: #a97afd;
 }
 
 .mh-blog .mh-blog-item h2 a:hover {
-  color: #e6175d;
+  color: #a370fd;
 }
 
 .mh-testimonial .mh-client-item img {
-  border: 5px solid #E91E63;
+  border: 5px solid #a97afd;
 }
 
 .mh-testimonial .owl-controls .owl-dots .owl-dot {
-  border: 1px solid #E91E63;
+  border: 1px solid #a97afd;
 }
 
 .mh-testimonial .owl-controls .owl-dots .owl-dot.active {
-  background-color: #E91E63;
+  background-color: #a97afd;
 }
 
 .mh-footer-address .mh-address-footer-item .each-icon .fa {
-  border-color: #E91E63;
+  border-color: #a97afd;
 }
 
 .old .navbar-collapse {
-  background-color: #E91E63;
+  background-color: #a97afd;
 }
 
 .old .navbar-header .navbar-toggler .icon-bar {
-  background-color: #E91E63;
+  background-color: #a97afd;
 }
 
 .old .navbar-collapse {
-  background-color: #E91E63;
+  background-color: #a97afd;
 }
 
 .new .navbar-collapse {
-  background-color: #E91E63;
+  background-color: #a97afd;
 }
 
 .new .navbar-header .navbar-toggler .icon-bar {
-  background-color: #E91E63;
+  background-color: #a97afd;
 }
 
 .new .navbar-collapse {
-  background-color: #E91E63;
+  background-color: #a97afd;
 }
 
 .portfolio-nav ul li.current span {
-  border-bottom: 2px solid #E91E63;
+  border-bottom: 2px solid #a97afd;
 }
 
 .mh-project-gallery .grid-item figure:hover figcaption {
-  background: rgba(233, 30, 99, 0.9);
+  background: rgba(169, 122, 253, 0.9);
 }
 
 .mh-featured-project .mh-featured-item .mh-featured-project-content .project-category {
-  color: #E91E63;
+  color: #a97afd;
 }
 
 .mh-single-project-slide .owl-controls .owl-dots .owl-dot {
-  border: 1px solid #E91E63;
+  border: 1px solid #a97afd;
 }
 
 .mh-single-project-slide .owl-controls .owl-dots .owl-dot.active {
-  background-color: #E91E63;
+  background-color: #a97afd;
 }
 
 .mh-service .mh-service-item a {
-  color: #E91E63;
+  color: #a97afd;
 }
 
 .mh-pagination .page-link:hover {
-  color: #E91E63;
+  color: #a97afd;
 }
 
 .mh-author-info .social-icon li a:hover {
-  color: #E91E63;
+  color: #a97afd;
 }
 
 .mh-blog-category ul li a:hover {
-  color: #E91E63;
+  color: #a97afd;
 }
 
 .mh-blog-next-prev-post a {
-  color: #E91E63;
+  color: #a97afd;
 }
 
 .comment-deatils span {
-  color: #E91E63;
+  color: #a97afd;
 }
 
 .btn.btn-fill {
-  background-color: #E91E63;
+  background-color: #a97afd;
 }
 
 .mh-pricing .mh-pricing .fa {
-  color: #E91E63;
+  color: #a97afd;
 }
-/*# sourceMappingURL=purple.css.map */
+/*# sourceMappingURL=blue.css.map */
