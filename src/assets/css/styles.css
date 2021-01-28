@@ -616,7 +616,7 @@ ul li {
 }
 
 .img-overlay {
-  background-image: url(../images/footer-bg.png);
+  background-image: url(../images/background/footer-bg.png);
   background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
@@ -633,19 +633,19 @@ ul li {
 }
 
 .home-2-img {
-  background-image: url(../images/home-bg-img.jpg);
+  background-image: url(../images/background/background-image-01.jpg);
 }
 
 .featured-img-one {
-  background-image: url(../images/home-bg-img.jpg);
+  background-image: url(../images/background/background-image-02.jpg);
 }
 
 .featured-img-two {
-  background-image: url(../images/extra-feature-bg.jpg);
+  background-image: url(../images/background/background-image-03.jpg);
 }
 
 .map-image {
-  background-image: url(../images/map-color-overlay.png);
+  background-image: url(../images/background/map-color-overlay.png);
 }
 
 .mt-30 {
@@ -3245,7 +3245,7 @@ li .fa {
 }
 
 .home-ov-img {
-  background-image: url(../images/header-bg-2.png);
+  background-image: url(../images/background/header-bg-2.png);
   background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
