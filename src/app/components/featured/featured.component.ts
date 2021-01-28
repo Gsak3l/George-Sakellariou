@@ -7,13 +7,11 @@ import { all_projects } from '../../app.component';
   styleUrls: ['./featured.component.sass'],
 })
 export class FeaturedComponent implements OnInit {
-  projects = [];
-
+  project;
+  random_number;
   constructor() {}
 
   ngOnInit(): void {
-    for (var i = 0; i < all_projects.length; i++) {
-      this.projects.push(all_projects[i]);
-    }
+    this.project = all_projects[Math.floor(Math.random() * all_projects.length)]
   }
 }
