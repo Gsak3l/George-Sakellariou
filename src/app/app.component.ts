@@ -28,9 +28,8 @@ export let all_projects = [
     header: 'TWITTER ACCOUNT GENERATOR USING SELENIUM',
     image: 'assets/images/portfolio/computer/twitter.jpg',
     details:
-      'In 2019 I discovered my passion about automation. I really enjoy not having to do simple tasks like' +
-      ' paying my bills by myself, but soon I started developing the other side of automation, the bot side. I wanted to ' +
-      ' prove that I can create bots for all the Social Media webistes. My Twitter Account Generator was one of best bots I have made',
+      'One day I woke up with the desire to  create bot accounts for the most important Social Media Websites.' +
+      " But I didn't just create another auto-like or tweet bot. I created a Twitter bot that creates multiple Twitter accounts.",
     repository_link:
       'https://github.com/Gsak3l/Web-Scraping/blob/master/twitter-bot-enhanced.py',
   },
@@ -57,5 +56,16 @@ export let all_projects = [
       ' Fortunately I managed to create a bot that solved Duolingo Stories for me, and I got the achievement I wanted.',
     repository_link:
       'https://github.com/Gsak3l/Web-Scraping/blob/master/duolingo.py',
+  },
+  {
+    category: 'AUTOMATION',
+    title: 'INSTAGRAM ACCOUNT GENERATOR',
+    header: 'INSTAGRAM ACCOUNT GENERATOR USING SELENIUM',
+    image: 'assets/images/portfolio/computer/instagram.jpg',
+    details:
+      'One day I woke up with the desire to  create bot accounts for the most important Social Media Websites.' +
+      " But I didn't just create another auto-like or comment bot. I created an Instagram bot that creates multiple Instagram accounts.",
+    repository_link:
+      'https://github.com/Gsak3l/Web-Scraping/blob/master/instagram-bot-enhanced.py',
   },
 ];
