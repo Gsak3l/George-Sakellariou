@@ -16,12 +16,12 @@
                     <img src="assets/images/p-2.png" alt="" class="img-fluid">
                   </div>
                 </div>
-                <div class="col-sm-5">
+                <div *ngFor="let project of  projects" class="col-sm-5">
                   <div class="mh-featured-project-content">
                     <h4 class="project-category wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Web Design
                     </h4>
-                    <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Wrap</h2>
-                    <span class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">Design &
+                    <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">{{project.title}}</h2>
+                    <span class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"> Design &
                       Development</span>
                     <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Stamp is a clean and elegant
                       Multipurpose Landing Page Template.
@@ -30,14 +30,6 @@
                       All variations are organized separately so you can use / customize the template very easily.</p>
                     <a href="#" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">View
                       Details</a>
-                    <div class="mh-testimonial mh-project-testimonial wow fadeInUp" data-wow-duration="0.8s"
-                      data-wow-delay="0.9s">
-                      <blockquote>
-                        <q>Excellent Template - suits my needs perfectly whilst allowing me to learn some new technology
-                          first hand.</q>
-                        <cite>- Shane Kavanagh</cite>
-                      </blockquote>
-                    </div>
                   </div>
                 </div>
               </div>
