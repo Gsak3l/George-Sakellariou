@@ -144,13 +144,23 @@ export let all_projects = [
     repository_link: 'https://github.com/Gsak3l/tic-tac-toe',
   },
   {
-    category: 'WEB BASED',
-    title: 'HOUSE TRADING APP',
+    category: 'ARTIFICIAL INTELLIGENCE',
+    title: 'FACE RECOGNITION SYSTEM USING PYTHON',
     header: 'DEVELOPMENT  OF A HOUSE TRADING APPLICATION',
-    image: 'assets/images/portfolio/computer/airbnb.jpg',
+    image: 'assets/images/portfolio/computer/facerecognition.jpg',
     details:
-      'Development of the front-end part of a web application that allows users from different countries to trade their' +
-      '  house with people from other countries, or rent it for a price',
-    repository_link: 'https://github.com/Gsak3l/airbnb-clone-app',
+      'Development of a few smaller scaled projects that focused on face regognition using the python library face_recognition.' +
+      ' This application manages to also differentiate look-alikes from people.',
+    repository_link: 'https://github.com/Gsak3l/python-image-face-regognition',
+  },
+  {
+    category: 'AUTOMATION',
+    title: 'STOCKS BUYER',
+    header: 'DEVELOPED A BOT THAT BUYS STOCKS',
+    image: 'assets/images/portfolio/computer/tradingbot.jpg',
+    details:
+      'Development of bot that takes all the important data from FINANCE.YAHOO.COM and then buys' + 
+      ' some stocks on ETORO.COM according to some criteria.' ,
+    repository_link: 'https://github.com/Gsak3l/etoro-trading-bot',
   },
 ];
