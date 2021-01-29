@@ -91,4 +91,66 @@ export let all_projects = [
       ' because we had to meet some criteria (we were not allowed to use databases) but we are happy with the results',
     repository_link: 'https://github.com/Gsak3l/university-courses-picker',
   },
+  {
+    category: 'WEB BASED',
+    title: 'ROCK PAPER SCISSORS',
+    header: 'DEVELOPMENT OF A SIMPLE ROCK PAPER SCISSORS GAME USING JAVASCRIPT',
+    image: 'assets/images/portfolio/computer/rockpaperscissors.jpg',
+    details:
+      'I enjoy playing simple old-school games like Rock-Paper-Scissors or Tic-Tac-Toe or UNO, so I decided to create' +
+      ' a simple Rock-Paper-Scissors game that randomly picks one move over the other two.',
+    repository_link: 'https://github.com/Gsak3l/rock-paper-scissors-game',
+  },
+  {
+    category: 'WEB BASED',
+    title: 'UNO CARD GAME',
+    header: 'DEVELOPMENT OF A UNO CARD GAME USING PHP JAVASCRIPT AND MYSQL',
+    image: 'assets/images/portfolio/computer/uno.jpg',
+    details:
+      'I enjoy playing simple old-school games like Rock-Paper-Scissors or Tic-Tac-Toe or UNO, so I decided to create' +
+      ' a multiplayer UNO card game, where two people from different computers can play with each other.',
+    repository_link: 'https://github.com/Gsak3l/UnoCardGame',
+  },
+  {
+    category: 'WEB BASED',
+    title: 'RECIPE APP',
+    header:
+      'DEVELOPMENT OF A RECIPE APP THAT UPDATES RECIPES USING REACT AND A RECIPE API',
+    image: 'assets/images/portfolio/computer/recipe.jpg',
+    details:
+      'Development of a simple application that displays some recipes based on the search keywords provided' +
+      " by the user. This app was made in order to undersand how to call API's",
+    repository_link: 'https://github.com/Gsak3l/Recipe-App',
+  },
+  {
+    category: 'AUTOMATION',
+    title: 'AMAZON ITEM PRICE SCRIPT',
+    header:
+      'SCRIPT THAT NOTIFIES A USER, WHEN THE GIVEN ITEM REACHES A CERTAIN PRICE',
+    image: 'assets/images/portfolio/computer/amazon.jpg',
+    details:
+      'A simple script that always run on my computer in order to never miss a good deal from the items that ' +
+      ' I already want. It notifies me through email whenever the price of my desired items drop enough.',
+    repository_link: 'https://github.com/Gsak3l/Python-Price-Script-for-Amazon',
+  },
+  {
+    category: 'WEB BASED',
+    title: 'TIC-TAC-TOE',
+    header: 'DEVELOPMENT OF A COMPLEX TIC-TAC-TOE GAME USING JAVASCRIPT',
+    image: 'assets/images/portfolio/computer/tictactoe.jpg',
+    details:
+      'I enjoy playing simple old-school games like Rock-Paper-Scissors or Tic-Tac-Toe or UNO, so I decided to create' +
+      ' a quite complex TIC-TAC-TOE game, where a user plays against a computer and it is impossible for him to win.',
+    repository_link: 'https://github.com/Gsak3l/tic-tac-toe',
+  },
+  {
+    category: 'WEB BASED',
+    title: 'HOUSE TRADING APP',
+    header: 'DEVELOPMENT  OF A HOUSE TRADING APPLICATION',
+    image: 'assets/images/portfolio/computer/airbnb.jpg',
+    details:
+      'Development of the front-end part of a web application that allows users from different countries to trade their' +
+      '  house with people from other countries, or rent it for a price',
+    repository_link: 'https://github.com/Gsak3l/airbnb-clone-app',
+  },
 ];
