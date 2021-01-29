@@ -159,8 +159,76 @@ export let all_projects = [
     header: 'DEVELOPED A BOT THAT BUYS STOCKS',
     image: 'assets/images/portfolio/computer/tradingbot.jpg',
     details:
-      'Development of bot that takes all the important data from FINANCE.YAHOO.COM and then buys' + 
-      ' some stocks on ETORO.COM according to some criteria.' ,
+      'Development of bot that takes all the important data from FINANCE.YAHOO.COM and then buys' +
+      ' some stocks on ETORO.COM according to some criteria.',
     repository_link: 'https://github.com/Gsak3l/etoro-trading-bot',
+  },
+  {
+    category: 'WEB BASED',
+    title: 'TASK MANAGER',
+    header: 'DEVELOPED A TASK MANAGER BASED ON THE MEAN STACK',
+    image: 'assets/images/portfolio/computer/meantask.jpg',
+    details:
+      'Developed a task manager app, using ANGULAR 9, NODEJS, EXPRESS JS and MONGODB. This app' +
+      ' has all the basic features, like adding new todo things, removing them and marking them as done.',
+    repository_link: 'https://github.com/Gsak3l/MEAN-task-manager',
+  },
+  {
+    category: 'WEB BASED',
+    title: 'ENGLISH TEACHER WEBSITE',
+    header: 'DEVELOPED AND DESIGNED A WEBSITE FOR AN ENGLISH TEACHER',
+    image: 'assets/images/portfolio/computer/englishteacher.jpg',
+    details:
+      'Developed a website for an english teacher using simple HTML, CSS, JAVASCRIPT',
+    repository_link: 'https://github.com/Gsak3l/English-Professor-Website',
+  },
+  {
+    category: 'WEB BASED',
+    title: 'MUSICAL INSTRUMENT TECHNICIAN',
+    header:
+      'DEVELOPED AND DESIGNED A WEBSITE FOR A MUSICAL INSTRUMENT TECHNICIAN',
+    image: 'assets/images/portfolio/computer/artandmusic.jpg',
+    details:
+      'Developed a website for a musical instrument technician using simple HTML, CSS, JAVASCRIPT',
+    repository_link: 'https://github.com/Gsak3l/art-and-music',
+  },
+  {
+    category: 'WEB BASED',
+    title: 'MERCHAND WEBSITE',
+    header: 'DEVELOPED AND DESIGNED A WEBSITE FOR A MERCHAND',
+    image: 'assets/images/portfolio/computer/merchand.jpg',
+    details:
+      'Developed a website for a merchand using Angular and Firebase. This project is still under construction and will ' +
+      ' most likely never finish but it looks decent.',
+    repository_link: 'https://github.com/Gsak3l/merchand-website',
+  },
+  {
+    category: 'ARTIFICIAL INTELLIGENCE',
+    title: 'NEURAL NETWORK IRIS TRAINING',
+    header: 'NEURAL NETWORK IRIS TRAINING IN PYTHON',
+    image: 'assets/images/portfolio/computer/iris.jpg',
+    details:
+      'Development of a neural network that trains from given data. Build in PYTHON using PANDAS, NUMPY, AND PYPLOT',
+    repository_link: 'https://github.com/Gsak3l/Iris-Flower-Training-Algorithm',
+  },
+  {
+    category: 'ARTIFICIAL INTELLIGENCE',
+    title: 'CAR LANES FINDER',
+    header: 'ALGORITHM THAT FINDS CAR LANES',
+    image: 'assets/images/portfolio/computer/lanefinder.jpg',
+    details:
+      'Algorithm that detects the car lanes of a given video, and marks them with a line to make them more visible. This' + 
+      ' algorithm is built using NUMPY and OPENCV in PYTHON.',
+    repository_link: 'https://github.com/Gsak3l/Car-Lanes-Finder',
+  },
+  {
+    category: 'ANDROID APPLICATION',
+    title: 'ANDROID ECOMMERCE APPLICATION',
+    header: 'ANDROID ECOMMERCE APPLICATION THAT SELLS CLOTHES',
+    image: 'assets/images/portfolio/computer/ecommerce.jpg',
+    details:
+      'Developed an android ecommerce application using JAVA and ROOM API. This app is not a real e-shop' + 
+      ' but has some of its functionality.',
+    repository_link: 'https://github.com/Gsak3l/ECommerce-Java-Room',
   },
 ];
