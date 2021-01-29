@@ -11,21 +11,9 @@ export class AppComponent {
 
 export let all_projects = [
   {
-    category: 'WEB DESIGN',
-    title: 'FINEAS RACING TEAM',
-    header: 'DESIGN AND DEVELOPMENT',
-    image: 'assets/images/portfolio/computer/fineasracingteam.jpg',
-    details:
-      'With the help of my good friend George Stinis, we designed the website of the Fineas Racing Team, a family of' +
-      ' young people who tried to compete on the worldwide competition of driverless formula' +
-      ' The first version of the page was created using wordpress, however it was quite slow, so I designed ' +
-      ' the second version on Angular.',
-    repository_link: 'https://github.com/Gsak3l/fineasWebSite',
-  },
-  {
     category: 'AUTOMATION',
     title: 'TWITTER ACCOUNT GENERATOR',
-    header: 'TWITTER ACCOUNT GENERATOR USING SELENIUM',
+    header: 'TWITTER ACCOUNT GENERATOR USING SELENIUM IN PYTHON',
     image: 'assets/images/portfolio/computer/twitter.jpg',
     details:
       'One day I woke up with the desire to  create bot accounts for the most important Social Media Websites.' +
@@ -36,7 +24,7 @@ export let all_projects = [
   {
     category: 'AUTOMATION',
     title: 'TYPERACER BOT',
-    header: 'TYPERACER BOT USING SELENIUM',
+    header: 'TYPERACER BOT USING SELENIUM IN PYTHON',
     image: 'assets/images/portfolio/computer/typeracer.jpg',
     details:
       'Sometime in 2019, my friends and I were fighting about who can type faster that the others.' +
@@ -48,7 +36,7 @@ export let all_projects = [
   {
     category: 'AUTOMATION',
     title: 'DUOLINGO STORIES BOT',
-    header: 'DUOLINGO STORIES USING SELENIUM',
+    header: 'DUOLINGO STORIES USING SELENIUM IN PYTHON',
     image: 'assets/images/portfolio/computer/duolingo.jpg',
     details:
       'I once wanted to earn an achievement on the popular language learning app, Duolingo.' +
@@ -60,12 +48,47 @@ export let all_projects = [
   {
     category: 'AUTOMATION',
     title: 'INSTAGRAM ACCOUNT GENERATOR',
-    header: 'INSTAGRAM ACCOUNT GENERATOR USING SELENIUM',
+    header: 'INSTAGRAM ACCOUNT GENERATOR USING SELENIUM IN PYTHON',
     image: 'assets/images/portfolio/computer/instagram.jpg',
     details:
       'One day I woke up with the desire to  create bot accounts for the most important Social Media Websites.' +
       " But I didn't just create another auto-like or comment bot. I created an Instagram bot that creates multiple Instagram accounts.",
     repository_link:
       'https://github.com/Gsak3l/Web-Scraping/blob/master/instagram-bot-enhanced.py',
+  },
+  {
+    category: 'WEB BASED',
+    title: 'FINEAS RACING TEAM',
+    header: 'DESIGN AND DEVELOPMENT OF THE FRT WEBSITE ON ANGULAR',
+    image: 'assets/images/portfolio/computer/fineasracingteam.jpg',
+    details:
+      'With the help of my good friend George Stinis, we designed the website of the Fineas Racing Team, a family of' +
+      ' young people who tried to compete on the worldwide competition of driverless formula' +
+      ' The first version of the page was created using wordpress, however it was quite slow, so I designed ' +
+      ' the second version on Angular.',
+    repository_link: 'https://github.com/Gsak3l/fineasWebSite',
+  },
+  {
+    category: 'WEB BASED',
+    title: 'IEEE IHU WEBSITE',
+    header:
+      'DESIGN AND CO-DEVELOPMENT OF THE IEEE INTERNATIONAL HELLENIC UNIVERSITY STUDENT BRANCH WEBSITE ON VUE',
+    image: 'assets/images/portfolio/computer/ihuthess.jpg',
+    details:
+      'Being in the position "Website Master" for the IEEE International Hellenic University Student Branch, means I had to ' +
+      ' maintain the old wordpress website. But the old website was not looking good enough, so me and George Apostolopoulos' +
+      ' developed the updated version using VUE. The new version is faster, better looking, and much more user-friendly thanks to Netlify CMS.',
+    repository_link: 'https://github.com/Gsak3l/sb-website',
+  },
+  {
+    category: 'APPLICATIONS',
+    title: 'UNIVERSITY LECTURES PICKER',
+    header: 'CO-DEVELOPMENT OF A COURSE PICKER APPLICATION ON JAVA',
+    image: 'assets/images/portfolio/computer/pithiav2.jpg',
+    details:
+      'During the course of software engineering, me, George Stinis, and Pantelis Papadopoulos were asked to develop a new' +
+      ' version of the application we were using, to select the courses we want to attend. Creating this applicaiton took a while' +
+      ' because we had to meet some criteria (we were not allowed to use databases) but we are happy with the results',
+    repository_link: 'https://github.com/Gsak3l/university-courses-picker',
   },
 ];
