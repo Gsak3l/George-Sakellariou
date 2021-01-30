@@ -231,4 +231,13 @@ export let all_projects = [
       ' but has some of its functionality.',
     repository_link: 'https://github.com/Gsak3l/ECommerce-Java-Room',
   },
+  {
+    category: 'WEB BASED',
+    title: 'WEBSITE FOR RUNNING CLUB',
+    header: 'WEB SITE FOR RUNNING CLUB USING WORDPRESS',
+    image: 'assets/images/portfolio/computer/sdyth.jpg',
+    details: 'I collaborated with George Stinis to make develop a website for one of the most popular Running' +
+      ' Clubs in Greece. We had a deadline of 7 days due to some restrictions with their older website moderator,' + 
+      ' so it was a difficult task.',
+  },
 ];
