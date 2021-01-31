@@ -162,8 +162,8 @@ export let all_projects = [
   },
   {
     category: 'ARTIFICIAL INTELLIGENCE',
-    title: 'FACE RECOGNITION SYSTEM USING PYTHON',
-    header: 'DEVELOPMENT  OF A HOUSE TRADING APPLICATION',
+    title: 'FACE RECOGNITION SYSTEM',
+    header: 'DEVELOPMENT OF A FACE RECOGNITION SYSTEM USING PYTHON',
     image: 'assets/images/portfolio/computer/facerecognition.jpg',
     details:
       'Development of a few smaller scaled projects that focused on face regognition using the python library face_recognition.' +

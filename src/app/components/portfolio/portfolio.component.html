@@ -25,17 +25,19 @@
         <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s"
           data-wow-delay="0.5s">
           <div class="portfolioContainer row">
-            <div *ngFor="let project of projects" class="grid-item col-md-4 col-sm-6 col-xs-12 XXX">
+
+            <div *ngFor="let project of projects" class="grid-item col-md-4 col-sm-6 col-xs-12 {{project.data_filter}}">
               <figure>
-                <img src="{{project.image}}" alt="img04">
+                <img src="{{project.image}}" alt="{{project.title}}">
                 <figcaption class="fig-caption">
                   <i class="fa fa-search"></i>
-                  <h5 class="title">Creative Design</h5>
-                  <span class="sub-title">Photograpy</span>
+                  <h5 class="title">{{project.title}}</h5>
+                  <span class="sub-title">{{project.category}}</span>
                   <a data-fancybox data-src="#mad"></a>
                 </figcaption>
               </figure>
             </div>
+
           </div> <!-- End: .grid .project-gallery -->
         </div> <!-- End: .grid .project-gallery -->
       </div> <!-- End: .part -->
