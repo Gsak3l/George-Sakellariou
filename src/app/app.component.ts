@@ -20,6 +20,7 @@ export let all_projects = [
       " But I didn't just create another auto-like or tweet bot. I created a Twitter bot that creates multiple Twitter accounts.",
     repository_link:
       'https://github.com/Gsak3l/Web-Scraping/blob/master/twitter-bot-enhanced.py',
+    data_filter: 'automation',
   },
   {
     category: 'AUTOMATION',
@@ -32,6 +33,7 @@ export let all_projects = [
       ' I knew I would probably win this competition I could not risk it and I created this bot.',
     repository_link:
       'https://github.com/Gsak3l/Web-Scraping/blob/master/typeracer.py',
+    data_filter: 'automation',
   },
   {
     category: 'AUTOMATION',
@@ -44,6 +46,7 @@ export let all_projects = [
       ' Fortunately I managed to create a bot that solved Duolingo Stories for me, and I got the achievement I wanted.',
     repository_link:
       'https://github.com/Gsak3l/Web-Scraping/blob/master/duolingo.py',
+    data_filter: 'automation',
   },
   {
     category: 'AUTOMATION',
@@ -55,6 +58,7 @@ export let all_projects = [
       " But I didn't just create another auto-like or comment bot. I created an Instagram bot that creates multiple Instagram accounts.",
     repository_link:
       'https://github.com/Gsak3l/Web-Scraping/blob/master/instagram-bot-enhanced.py',
+    data_filter: 'automation',
   },
   {
     category: 'WEB BASED',
@@ -67,6 +71,7 @@ export let all_projects = [
       ' The first version of the page was created using wordpress, however it was quite slow, so I designed ' +
       ' the second version on Angular.',
     repository_link: 'https://github.com/Gsak3l/fineasWebSite',
+    live_demo: 'https://fineasracingteam.netlify.app/',
   },
   {
     category: 'WEB BASED',
@@ -79,6 +84,7 @@ export let all_projects = [
       ' maintain the old wordpress website. But the old website was not looking good enough, so me and George Apostolopoulos' +
       ' developed the updated version using VUE. The new version is faster, better looking, and much more user-friendly thanks to Netlify CMS.',
     repository_link: 'https://github.com/Gsak3l/sb-website',
+    live_demo: 'https://sakellariou-ieee.netlify.app/',
   },
   {
     category: 'APPLICATIONS',
@@ -100,6 +106,7 @@ export let all_projects = [
       'I enjoy playing simple old-school games like Rock-Paper-Scissors or Tic-Tac-Toe or UNO, so I decided to create' +
       ' a simple Rock-Paper-Scissors game that randomly picks one move over the other two.',
     repository_link: 'https://github.com/Gsak3l/rock-paper-scissors-game',
+    live_demo: 'https://gsak3l.github.io/tic-tac-toe/',
   },
   {
     category: 'WEB BASED',
@@ -121,6 +128,7 @@ export let all_projects = [
       'Development of a simple application that displays some recipes based on the search keywords provided' +
       " by the user. This app was made in order to undersand how to call API's",
     repository_link: 'https://github.com/Gsak3l/Recipe-App',
+    live_demo: 'https://gsak3l.github.io/Recipe-App/',
   },
   {
     category: 'AUTOMATION',
@@ -132,6 +140,7 @@ export let all_projects = [
       'A simple script that always run on my computer in order to never miss a good deal from the items that ' +
       ' I already want. It notifies me through email whenever the price of my desired items drop enough.',
     repository_link: 'https://github.com/Gsak3l/Python-Price-Script-for-Amazon',
+    data_filter: 'automation',
   },
   {
     category: 'WEB BASED',
@@ -142,6 +151,7 @@ export let all_projects = [
       'I enjoy playing simple old-school games like Rock-Paper-Scissors or Tic-Tac-Toe or UNO, so I decided to create' +
       ' a quite complex TIC-TAC-TOE game, where a user plays against a computer and it is impossible for him to win.',
     repository_link: 'https://github.com/Gsak3l/tic-tac-toe',
+    live_demo: 'https://gsak3l.github.io/rock-paper-scissors-game/index.html',
   },
   {
     category: 'ARTIFICIAL INTELLIGENCE',
@@ -162,6 +172,7 @@ export let all_projects = [
       'Development of bot that takes all the important data from FINANCE.YAHOO.COM and then buys' +
       ' some stocks on ETORO.COM according to some criteria.',
     repository_link: 'https://github.com/Gsak3l/etoro-trading-bot',
+    data_filter: 'automation',
   },
   {
     category: 'WEB BASED',
@@ -181,6 +192,7 @@ export let all_projects = [
     details:
       'Developed a website for an english teacher using simple HTML, CSS, JAVASCRIPT',
     repository_link: 'https://github.com/Gsak3l/English-Professor-Website',
+    live_demo: 'https://thodoros-english-teacher.netlify.app/',
   },
   {
     category: 'WEB BASED',
@@ -191,6 +203,7 @@ export let all_projects = [
     details:
       'Developed a website for a musical instrument technician using simple HTML, CSS, JAVASCRIPT',
     repository_link: 'https://github.com/Gsak3l/art-and-music',
+    live_demo: 'https://artandmusic.gr/',
   },
   {
     category: 'WEB BASED',
@@ -217,7 +230,7 @@ export let all_projects = [
     header: 'ALGORITHM THAT FINDS CAR LANES',
     image: 'assets/images/portfolio/computer/lanefinder.jpg',
     details:
-      'Algorithm that detects the car lanes of a given video, and marks them with a line to make them more visible. This' + 
+      'Algorithm that detects the car lanes of a given video, and marks them with a line to make them more visible. This' +
       ' algorithm is built using NUMPY and OPENCV in PYTHON.',
     repository_link: 'https://github.com/Gsak3l/Car-Lanes-Finder',
   },
@@ -227,7 +240,7 @@ export let all_projects = [
     header: 'ANDROID ECOMMERCE APPLICATION THAT SELLS CLOTHES',
     image: 'assets/images/portfolio/computer/ecommerce.jpg',
     details:
-      'Developed an android ecommerce application using JAVA and ROOM API. This app is not a real e-shop' + 
+      'Developed an android ecommerce application using JAVA and ROOM API. This app is not a real e-shop' +
       ' but has some of its functionality.',
     repository_link: 'https://github.com/Gsak3l/ECommerce-Java-Room',
   },
@@ -236,8 +249,9 @@ export let all_projects = [
     title: 'WEBSITE FOR RUNNING CLUB',
     header: 'WEB SITE FOR RUNNING CLUB USING WORDPRESS',
     image: 'assets/images/portfolio/computer/sdyth.jpg',
-    details: 'I collaborated with George Stinis to make develop a website for one of the most popular Running' +
-      ' Clubs in Greece. We had a deadline of 7 days due to some restrictions with their older website moderator,' + 
+    details:
+      'I collaborated with George Stinis to make develop a website for one of the most popular Running' +
+      ' Clubs in Greece. We had a deadline of 7 days due to some restrictions with their older website moderator,' +
       ' so it was a difficult task.',
   },
 ];
