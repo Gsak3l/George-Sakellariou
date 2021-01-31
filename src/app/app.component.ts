@@ -72,6 +72,7 @@ export let all_projects = [
       ' the second version on Angular.',
     repository_link: 'https://github.com/Gsak3l/fineasWebSite',
     live_demo: 'https://fineasracingteam.netlify.app/',
+    data_filter: 'web',
   },
   {
     category: 'WEB BASED',
@@ -85,6 +86,7 @@ export let all_projects = [
       ' developed the updated version using VUE. The new version is faster, better looking, and much more user-friendly thanks to Netlify CMS.',
     repository_link: 'https://github.com/Gsak3l/sb-website',
     live_demo: 'https://sakellariou-ieee.netlify.app/',
+    data_filter: 'web',
   },
   {
     category: 'APPLICATIONS',
@@ -96,6 +98,7 @@ export let all_projects = [
       ' version of the application we were using, to select the courses we want to attend. Creating this applicaiton took a while' +
       ' because we had to meet some criteria (we were not allowed to use databases) but we are happy with the results',
     repository_link: 'https://github.com/Gsak3l/university-courses-picker',
+    data_filter: 'others',
   },
   {
     category: 'WEB BASED',
@@ -107,6 +110,7 @@ export let all_projects = [
       ' a simple Rock-Paper-Scissors game that randomly picks one move over the other two.',
     repository_link: 'https://github.com/Gsak3l/rock-paper-scissors-game',
     live_demo: 'https://gsak3l.github.io/tic-tac-toe/',
+    data_filter: 'web',
   },
   {
     category: 'WEB BASED',
@@ -117,6 +121,7 @@ export let all_projects = [
       'I enjoy playing simple old-school games like Rock-Paper-Scissors or Tic-Tac-Toe or UNO, so I decided to create' +
       ' a multiplayer UNO card game, where two people from different computers can play with each other.',
     repository_link: 'https://github.com/Gsak3l/UnoCardGame',
+    data_filter: 'web',
   },
   {
     category: 'WEB BASED',
@@ -129,6 +134,7 @@ export let all_projects = [
       " by the user. This app was made in order to undersand how to call API's",
     repository_link: 'https://github.com/Gsak3l/Recipe-App',
     live_demo: 'https://gsak3l.github.io/Recipe-App/',
+    data_filter: 'web',
   },
   {
     category: 'AUTOMATION',
@@ -152,6 +158,7 @@ export let all_projects = [
       ' a quite complex TIC-TAC-TOE game, where a user plays against a computer and it is impossible for him to win.',
     repository_link: 'https://github.com/Gsak3l/tic-tac-toe',
     live_demo: 'https://gsak3l.github.io/rock-paper-scissors-game/index.html',
+    data_filter: 'web',
   },
   {
     category: 'ARTIFICIAL INTELLIGENCE',
@@ -162,6 +169,7 @@ export let all_projects = [
       'Development of a few smaller scaled projects that focused on face regognition using the python library face_recognition.' +
       ' This application manages to also differentiate look-alikes from people.',
     repository_link: 'https://github.com/Gsak3l/python-image-face-regognition',
+    data_filter: 'ai',
   },
   {
     category: 'AUTOMATION',
@@ -183,6 +191,7 @@ export let all_projects = [
       'Developed a task manager app, using ANGULAR 9, NODEJS, EXPRESS JS and MONGODB. This app' +
       ' has all the basic features, like adding new todo things, removing them and marking them as done.',
     repository_link: 'https://github.com/Gsak3l/MEAN-task-manager',
+    data_filter: 'web',
   },
   {
     category: 'WEB BASED',
@@ -193,6 +202,7 @@ export let all_projects = [
       'Developed a website for an english teacher using simple HTML, CSS, JAVASCRIPT',
     repository_link: 'https://github.com/Gsak3l/English-Professor-Website',
     live_demo: 'https://thodoros-english-teacher.netlify.app/',
+    data_filter: 'web',
   },
   {
     category: 'WEB BASED',
@@ -204,6 +214,7 @@ export let all_projects = [
       'Developed a website for a musical instrument technician using simple HTML, CSS, JAVASCRIPT',
     repository_link: 'https://github.com/Gsak3l/art-and-music',
     live_demo: 'https://artandmusic.gr/',
+    data_filter: 'web',
   },
   {
     category: 'WEB BASED',
@@ -214,6 +225,7 @@ export let all_projects = [
       'Developed a website for a merchand using Angular and Firebase. This project is still under construction and will ' +
       ' most likely never finish but it looks decent.',
     repository_link: 'https://github.com/Gsak3l/merchand-website',
+    data_filter: 'web',
   },
   {
     category: 'ARTIFICIAL INTELLIGENCE',
@@ -223,6 +235,7 @@ export let all_projects = [
     details:
       'Development of a neural network that trains from given data. Build in PYTHON using PANDAS, NUMPY, AND PYPLOT',
     repository_link: 'https://github.com/Gsak3l/Iris-Flower-Training-Algorithm',
+    data_filter: 'ai',
   },
   {
     category: 'ARTIFICIAL INTELLIGENCE',
@@ -233,6 +246,7 @@ export let all_projects = [
       'Algorithm that detects the car lanes of a given video, and marks them with a line to make them more visible. This' +
       ' algorithm is built using NUMPY and OPENCV in PYTHON.',
     repository_link: 'https://github.com/Gsak3l/Car-Lanes-Finder',
+    data_filter: 'ai',
   },
   {
     category: 'ANDROID APPLICATION',
@@ -243,6 +257,7 @@ export let all_projects = [
       'Developed an android ecommerce application using JAVA and ROOM API. This app is not a real e-shop' +
       ' but has some of its functionality.',
     repository_link: 'https://github.com/Gsak3l/ECommerce-Java-Room',
+    data_filter: 'others',
   },
   {
     category: 'WEB BASED',
@@ -253,5 +268,6 @@ export let all_projects = [
       'I collaborated with George Stinis to make develop a website for one of the most popular Running' +
       ' Clubs in Greece. We had a deadline of 7 days due to some restrictions with their older website moderator,' +
       ' so it was a difficult task.',
+    data_filter: 'web',
   },
 ];
