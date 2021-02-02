@@ -15,13 +15,12 @@ export class PortfolioComponent implements OnInit {
     for (var i = 0; i < all_projects.length; i++) {
       this.projects.push(all_projects[i]);
     }
-    /*
     for (let i = this.projects.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [this.projects[i], this.projects[j]] = [
         this.projects[j],
         this.projects[i],
       ];
-    }*/
+    }
   }
 }
