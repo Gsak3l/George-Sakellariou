@@ -652,15 +652,15 @@ ul li {
 }
 
 .home-2-img {
-  background-image: url(https://res.cloudinary.com/gsak3ll/image/upload/s--qkHmfWz0--/f_auto,q_jpegmini/v1612295045/personal%20website/background/background-image-01_jyrant.jpg);
+  background-image: url(../images/background/background-image-01.jpg);
 }
 
 .featured-img-one {
-  background-image: url(https://res.cloudinary.com/gsak3ll/image/upload/s--4B610E6A--/f_auto,q_jpegmini/v1612295046/personal%20website/background/background-image-02_ymtqkf.jpg);
+  background-image: url(../images/background/background-image-02.jpg);
 }
 
 .featured-img-two {
-  background-image: url(https://res.cloudinary.com/gsak3ll/image/upload/s--3DeBDBs4--/f_auto,q_jpegmini/v1612295046/personal%20website/background/background-image-03_r7iquq.jpg);
+  background-image: url(../images/background/background-image-03.jpg);
 }
 
 .map-image {
