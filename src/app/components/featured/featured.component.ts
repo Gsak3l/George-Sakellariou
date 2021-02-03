@@ -14,6 +14,5 @@ export class FeaturedComponent implements OnInit {
   ngOnInit(): void {
     this.project =
       all_projects[Math.floor(Math.random() * all_projects.length)];
-    //this.project = all_projects[all_projects.length - 1];
   }
 }

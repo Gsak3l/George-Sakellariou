@@ -1,90 +1,53 @@
 <section class="mh-portfolio" id="portfolio">
   <div class="container">
     <div class="row section-separator">
+
       <div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
         <h3>Portfolio</h3>
       </div>
+
       <div class="part col-sm-12">
         <div class="portfolio-nav col-sm-12" id="filter-button">
-
-          <ul>
-            <li data-filter="*" class="current wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"> <span>All
-                Categories</span></li>
+          <ul style="font-weight: 600;">
+            <li data-filter="*" class="current wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+              <span>All Categories</span>
+            </li>
             <li data-filter=".ai" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-              <span>
-                Artificial intelligence</span></li>
+              <span>Artificial intelligence</span>
+            </li>
             <li data-filter=".automation" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
-              <span>Automation</span></li>
+              <span>Automation</span>
+            </li>
             <li data-filter=".web" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-              <span>Web Applications</span></li>
+              <span>Web Applications</span>
+            </li>
             <li data-filter=".others" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-              <span>Others </span></li>
+              <span>Others </span>
+            </li>
           </ul>
-
         </div>
-        <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s"
-          data-wow-delay="0.5s">
-          <div class="portfolioContainer row">
+      </div>
 
-            <div *ngFor="let project of projects" class="grid-item col-md-4 col-sm-6 col-xs-12 {{project.data_filter}}">
-              <figure>
-                <img src="{{project.image}}" alt="{{project.title}}">
-                <figcaption class="fig-caption">
-                  <i class="fa fa-search"></i>
-                  <h5 class="title">{{project.title}}</h5>
-                  <span class="sub-title">{{project.category}}</span>
-                  <a data-fancybox data-src="#mad"></a>
-                </figcaption>
-              </figure>
-            </div>
-
-          </div> <!-- End: .grid .project-gallery -->
-        </div> <!-- End: .grid .project-gallery -->
-      </div> <!-- End: .part -->
-    </div> <!-- End: .row -->
-  </div>
-
-  <div class="mh-portfolio-modal" id="mh">
-    <div class="container">
-      <div class="row mh-portfolio-modal-inner">
-        <div class="col-sm-5">
-          <h2>Wrap - A campanion plugin</h2>
-          <p>Wrap is a clean and elegant Multipurpose Landing Page Template.
-            It will fit perfectly for Startup, Web App or any type of Web Services.
-            It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme.
-            All variations are organized separately so you can use / customize the template very easily.</p>
-          <p>It is a clean and elegant Multipurpose Landing Page Template.
-            It will fit perfectly for Startup, Web App or any type of Web Services.
-            It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme.
-            All variations are organized separately so you can use / customize the template very easily.</p>
-          <div class="mh-about-tag">
-            <ul>
-              <li><span>php</span></li>
-              <li><span>html</span></li>
-              <li><span>css</span></li>
-              <li><span>php</span></li>
-              <li><span>wordpress</span></li>
-              <li><span>React</span></li>
-              <li><span>Javascript</span></li>
-            </ul>
-          </div>
-          <a href="#" class="btn btn-fill">Live Demo</a>
-        </div>
-        <div class="col-sm-7">
-          <div class="mh-portfolio-modal-img">
-            <img src="assets/images/pr-0.jif" alt="" class="img-fluid">
-            <p>All variations are organized separately so you can use / customize the template very easily.</p>
-            <img src="assets/images/pr-1.jif" alt="" class="img-fluid">
-            <p>All variations are organized separately so you can use / customize the template very easily.</p>
+      <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s"
+        data-wow-delay="0.5s">
+        <div class="portfolioContainer row">
+          <div *ngFor="let project of projects" class="grid-item col-md-4 col-sm-6 col-xs-12 {{project.data_filter}}">
+            <figure>
+              <img src="{{project.image}}" alt="{{project.title}}">
+              <figcaption class="fig-caption">
+                <i class="fa fa-search"></i>
+                <h5 class="title">{{project.title}}</h5>
+                <span class="sub-title">{{project.category}}</span>
+                <a data-fancybox data-src="#th"></a>
+              </figcaption>
+            </figure>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-
-
-  <div class="mh-portfolio-modal" id="mad">
+  <div class="mh-portfolio-modal" id="th">
     <div class="container">
       <div class="row mh-portfolio-modal-inner">
         <div class="col-sm-5">

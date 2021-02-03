@@ -11,6 +11,7 @@ export class AppComponent {
 
 export let all_projects = [
   {
+    id: 'tag',
     category: 'AUTOMATION',
     title: 'TWITTER ACCOUNT GENERATOR',
     header: 'TWITTER ACCOUNT GENERATOR USING SELENIUM IN PYTHON',
@@ -24,6 +25,7 @@ export let all_projects = [
     data_filter: 'automation',
   },
   {
+    id: 'tb',
     category: 'AUTOMATION',
     title: 'TYPERACER BOT',
     header: 'TYPERACER BOT USING SELENIUM IN PYTHON',
@@ -38,6 +40,7 @@ export let all_projects = [
     data_filter: 'automation',
   },
   {
+    id: 'dsb',
     category: 'AUTOMATION',
     title: 'DUOLINGO STORIES BOT',
     header: 'DUOLINGO STORIES USING SELENIUM IN PYTHON',
@@ -52,6 +55,7 @@ export let all_projects = [
     data_filter: 'automation',
   },
   {
+    id: 'iag',
     category: 'AUTOMATION',
     title: 'INSTAGRAM ACCOUNT GENERATOR',
     header: 'INSTAGRAM ACCOUNT GENERATOR USING SELENIUM IN PYTHON',
@@ -65,6 +69,7 @@ export let all_projects = [
     data_filter: 'automation',
   },
   {
+    id: 'frt',
     category: 'WEB BASED',
     title: 'FINEAS RACING TEAM',
     header: 'DESIGN AND DEVELOPMENT OF THE FRT WEBSITE ON ANGULAR',
@@ -80,6 +85,7 @@ export let all_projects = [
     data_filter: 'web',
   },
   {
+    id: 'iiw',
     category: 'WEB BASED',
     title: 'IEEE IHU WEBSITE',
     header:
@@ -95,6 +101,7 @@ export let all_projects = [
     data_filter: 'web',
   },
   {
+    id: 'ulp',
     category: 'APPLICATIONS',
     title: 'UNIVERSITY LECTURES PICKER',
     header: 'CO-DEVELOPMENT OF A COURSE PICKER APPLICATION ON JAVA',
@@ -108,6 +115,7 @@ export let all_projects = [
     data_filter: 'others',
   },
   {
+    id: 'rps',
     category: 'WEB BASED',
     title: 'ROCK PAPER SCISSORS',
     header: 'DEVELOPMENT OF A SIMPLE ROCK PAPER SCISSORS GAME USING JAVASCRIPT',
@@ -121,6 +129,7 @@ export let all_projects = [
     data_filter: 'web',
   },
   {
+    id: 'ucg',
     category: 'WEB BASED',
     title: 'UNO CARD GAME',
     header: 'DEVELOPMENT OF A UNO CARD GAME USING JAVASCRIPT, PHP AND MYSQL',
@@ -133,6 +142,7 @@ export let all_projects = [
     data_filter: 'web',
   },
   {
+    id: 'ra',
     category: 'WEB BASED',
     title: 'RECIPE APP',
     header:
@@ -147,6 +157,7 @@ export let all_projects = [
     data_filter: 'web',
   },
   {
+    id: 'aips',
     category: 'AUTOMATION',
     title: 'AMAZON ITEM PRICE SCRIPT',
     header:
@@ -160,6 +171,7 @@ export let all_projects = [
     data_filter: 'automation',
   },
   {
+    id: 'ttt',
     category: 'WEB BASED',
     title: 'TIC-TAC-TOE',
     header: 'DEVELOPMENT OF A COMPLEX TIC-TAC-TOE GAME USING JAVASCRIPT',
@@ -173,6 +185,7 @@ export let all_projects = [
     data_filter: 'web',
   },
   {
+    id: 'frs',
     category: 'ARTIFICIAL INTELLIGENCE',
     title: 'FACE RECOGNITION SYSTEM',
     header: 'DEVELOPMENT OF A FACE RECOGNITION SYSTEM USING PYTHON',
@@ -185,6 +198,7 @@ export let all_projects = [
     data_filter: 'ai',
   },
   {
+    id: 'sb',
     category: 'AUTOMATION',
     title: 'STOCKS BUYER',
     header: 'DEVELOPED A BOT THAT BUYS STOCKS',
@@ -197,6 +211,7 @@ export let all_projects = [
     data_filter: 'automation',
   },
   {
+    id: 'tm',
     category: 'WEB BASED',
     title: 'TASK MANAGER',
     header: 'DEVELOPED A TASK MANAGER BASED ON THE MEAN STACK',
@@ -209,6 +224,7 @@ export let all_projects = [
     data_filter: 'web',
   },
   {
+    id: 'etw',
     category: 'WEB BASED',
     title: 'ENGLISH TEACHER WEBSITE',
     header: 'DEVELOPED AND DESIGNED A WEBSITE FOR AN ENGLISH TEACHER',
@@ -221,6 +237,7 @@ export let all_projects = [
     data_filter: 'web',
   },
   {
+    id: 'mit',
     category: 'WEB BASED',
     title: 'MUSICAL INSTRUMENT TECHNICIAN',
     header:
@@ -234,6 +251,7 @@ export let all_projects = [
     data_filter: 'web',
   },
   {
+    id: 'mw',
     category: 'WEB BASED',
     title: 'MERCHAND WEBSITE',
     header: 'DEVELOPED AND DESIGNED A WEBSITE FOR A MERCHAND',
@@ -246,6 +264,7 @@ export let all_projects = [
     data_filter: 'web',
   },
   {
+    id: 'nnit',
     category: 'ARTIFICIAL INTELLIGENCE',
     title: 'NEURAL NETWORK IRIS TRAINING',
     header: 'NEURAL NETWORK IRIS TRAINING IN PYTHON',
@@ -257,6 +276,7 @@ export let all_projects = [
     data_filter: 'ai',
   },
   {
+    id: 'clf',
     category: 'ARTIFICIAL INTELLIGENCE',
     title: 'CAR LANES FINDER',
     header: 'ALGORITHM THAT FINDS CAR LANES',
@@ -269,6 +289,7 @@ export let all_projects = [
     data_filter: 'ai',
   },
   {
+    id: 'aea',
     category: 'ANDROID APPLICATION',
     title: 'ANDROID ECOMMERCE APPLICATION',
     header: 'ANDROID ECOMMERCE APPLICATION THAT SELLS CLOTHES',
@@ -281,8 +302,9 @@ export let all_projects = [
     data_filter: 'others',
   },
   {
+    id: 'wfarc',
     category: 'WEB BASED',
-    title: 'WEBSITE FOR RUNNING CLUB',
+    title: 'WEBSITE FOR A RUNNING CLUB',
     header: 'WEB SITE FOR RUNNING CLUB USING WORDPRESS',
     image:
       'https://res.cloudinary.com/gsak3ll/image/upload/f_auto,q_auto/v1612347502/really%20compresed%20personal%20website/portfolio/sdyth_j84h3c.jpg',
@@ -293,13 +315,15 @@ export let all_projects = [
     data_filter: 'web',
   },
   {
+    id: 'th',
     category: 'WEB BASED',
     title: 'TRADE HOUSES',
     header: 'DEVELOPED AND DESIGNED A WEB APP FOR TRADING HOUSES ',
     image:
       'https://res.cloudinary.com/gsak3ll/image/upload/f_auto,q_auto/v1612347499/really%20compresed%20personal%20website/portfolio/airbnb_ecchnb.jpg',
-    details: 'Development of the Front-end of a web based application similar to Airbnb where people from all arround the world' + 
-    ' could rent their own house, or offer it as an exchange for a short amound of time.',
+    details:
+      'Development of the Front-end of a web based application similar to Airbnb where people from all arround the world' +
+      ' could rent their own house, or offer it as an exchange for a short amound of time.',
     data_filter: 'web',
   },
 ];
