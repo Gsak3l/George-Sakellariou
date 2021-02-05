@@ -313,6 +313,7 @@ export let all_projects = [
       ' Clubs in Greece. We had a deadline of 7 days due to some restrictions with their older website moderator,' +
       ' so it was a difficult task.',
     data_filter: 'web',
+    live_demo: 'https://sdyth.gr',
   },
   {
     id: 'th',
@@ -325,5 +326,7 @@ export let all_projects = [
       'Development of the Front-end of a web based application similar to Airbnb where people from all arround the world' +
       ' could rent their own house, or offer it as an exchange for a short amound of time.',
     data_filter: 'web',
+    repository_link: 'https://github.com/Gsak3l/airbnb-clone-app',
+    live_demo: 'https://gsak3l.github.io/airbnb-clone-app/index.html',
   },
 ];
