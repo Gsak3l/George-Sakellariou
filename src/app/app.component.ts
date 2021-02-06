@@ -23,6 +23,7 @@ export let all_projects = [
     repository_link:
       'https://github.com/Gsak3l/Web-Scraping/blob/master/twitter-bot-enhanced.py',
     data_filter: 'automation',
+    tags: ['PYTHON', 'SELENIUM', 'MULTIPROCESSING', 'URLLIB'],
   },
   {
     id: 'tb',
@@ -38,6 +39,7 @@ export let all_projects = [
     repository_link:
       'https://github.com/Gsak3l/Web-Scraping/blob/master/typeracer.py',
     data_filter: 'automation',
+    tags: ['PYTHON', 'SELENIUM'],
   },
   {
     id: 'dsb',
@@ -53,6 +55,7 @@ export let all_projects = [
     repository_link:
       'https://github.com/Gsak3l/Web-Scraping/blob/master/duolingo.py',
     data_filter: 'automation',
+    tags: ['PYTHON', 'SELENIUM'],
   },
   {
     id: 'iag',
@@ -67,6 +70,7 @@ export let all_projects = [
     repository_link:
       'https://github.com/Gsak3l/Web-Scraping/blob/master/instagram-bot-enhanced.py',
     data_filter: 'automation',
+    tags: ['PYTHON', 'SELENIUM', 'MULTIPROCESSING'],
   },
   {
     id: 'frt',
@@ -83,6 +87,7 @@ export let all_projects = [
     repository_link: 'https://github.com/Gsak3l/fineasWebSite',
     live_demo: 'https://fineasracingteam.netlify.app/',
     data_filter: 'web',
+    tags: ['ANGULAR 8 ', 'TYPESCRIPT', 'JAVASCRIPT', 'HTML', 'CSS'],
   },
   {
     id: 'iiw',
@@ -99,6 +104,7 @@ export let all_projects = [
     repository_link: 'https://github.com/Gsak3l/sb-website',
     live_demo: 'https://sakellariou-ieee.netlify.app/',
     data_filter: 'web',
+    tags: ['VUE', 'JAVASCRIPT', 'SCSS'],
   },
   {
     id: 'ulp',
@@ -110,9 +116,10 @@ export let all_projects = [
     details:
       'During the course of software engineering, me, George Stinis, and Pantelis Papadopoulos were asked to develop a new' +
       ' version of the application we were using, to select the courses we want to attend. Creating this applicaiton took a while' +
-      ' because we had to meet some criteria (we were not allowed to use databases) but we are happy with the results',
+      ' because we had to meet some criteria (we were not allowed to use databases) but we are happy with the result.',
     repository_link: 'https://github.com/Gsak3l/university-courses-picker',
     data_filter: 'others',
+    tags: ['JAVA', 'JAVA-SWING'],
   },
   {
     id: 'rps',
@@ -127,6 +134,7 @@ export let all_projects = [
     repository_link: 'https://github.com/Gsak3l/rock-paper-scissors-game',
     live_demo: 'https://gsak3l.github.io/tic-tac-toe/',
     data_filter: 'web',
+    tags: ['HTML', 'CSS', 'JAVASCRIPT'],
   },
   {
     id: 'ucg',
@@ -140,6 +148,7 @@ export let all_projects = [
       ' a multiplayer UNO card game, where two people from different computers can play with each other.',
     repository_link: 'https://github.com/Gsak3l/UnoCardGame',
     data_filter: 'web',
+    tags: ['PHP', 'MYSQL', 'HTML', 'CSS', 'JAVASCRIPT'],
   },
   {
     id: 'ra',
@@ -155,6 +164,7 @@ export let all_projects = [
     repository_link: 'https://github.com/Gsak3l/Recipe-App',
     live_demo: 'https://gsak3l.github.io/Recipe-App/',
     data_filter: 'web',
+    tags: ['REACT', 'JSX', 'CSS', 'HTML'],
   },
   {
     id: 'aips',
@@ -169,6 +179,7 @@ export let all_projects = [
       ' I already want. It notifies me through email whenever the price of my desired items drop enough.',
     repository_link: 'https://github.com/Gsak3l/Python-Price-Script-for-Amazon',
     data_filter: 'automation',
+    tags: ['PYTHON', 'REQUESTS', 'BEAUTIFULSOUP', 'SMTPLIB'],
   },
   {
     id: 'ttt',
@@ -183,6 +194,7 @@ export let all_projects = [
     repository_link: 'https://github.com/Gsak3l/tic-tac-toe',
     live_demo: 'https://gsak3l.github.io/rock-paper-scissors-game/index.html',
     data_filter: 'web',
+    tags: ['HTML', 'CSS', 'JAVASCRIPT'],
   },
   {
     id: 'frs',
@@ -196,6 +208,7 @@ export let all_projects = [
       ' This application manages to also differentiate look-alikes from people.',
     repository_link: 'https://github.com/Gsak3l/python-image-face-regognition',
     data_filter: 'ai',
+    tags: ['PYTHON', 'PIPENV', 'FACE_RECOGNITION'],
   },
   {
     id: 'sb',
@@ -209,6 +222,7 @@ export let all_projects = [
       ' some stocks on ETORO.COM according to some criteria.',
     repository_link: 'https://github.com/Gsak3l/etoro-trading-bot',
     data_filter: 'automation',
+    tags: ['PYTHON', 'SELENIUM', 'MULTIPROCESSING'],
   },
   {
     id: 'tm',
@@ -222,6 +236,16 @@ export let all_projects = [
       ' has all the basic features, like adding new todo things, removing them and marking them as done.',
     repository_link: 'https://github.com/Gsak3l/MEAN-task-manager',
     data_filter: 'web',
+    tags: [
+      'ANGULAR 9',
+      'MONGODB',
+      'EXPRESSJS',
+      'NODEJS',
+      'TYPESCRIPT',
+      'JAVASCRIPT',
+      'SCSS',
+      'HTML',
+    ],
   },
   {
     id: 'etw',
@@ -235,6 +259,7 @@ export let all_projects = [
     repository_link: 'https://github.com/Gsak3l/English-Professor-Website',
     live_demo: 'https://thodoros-english-teacher.netlify.app/',
     data_filter: 'web',
+    tags: ['HTML', 'CSS', 'JAVASCIPT'],
   },
   {
     id: 'mit',
@@ -249,6 +274,7 @@ export let all_projects = [
     repository_link: 'https://github.com/Gsak3l/art-and-music',
     live_demo: 'https://artandmusic.gr/',
     data_filter: 'web',
+    tags: ['HTML', 'CSS', 'JAVASCRIPT'],
   },
   {
     id: 'mw',
@@ -262,6 +288,7 @@ export let all_projects = [
       ' most likely never finish but it looks decent.',
     repository_link: 'https://github.com/Gsak3l/merchand-website',
     data_filter: 'web',
+    tags: ['ANGULAR 10', 'JAVASCRIPT', 'TYPESCRIPT', 'SCSS', 'CSS', 'HTML'],
   },
   {
     id: 'nnit',
@@ -274,6 +301,7 @@ export let all_projects = [
       'Development of a neural network that trains from given data. Build in PYTHON using PANDAS, NUMPY, AND PYPLOT',
     repository_link: 'https://github.com/Gsak3l/Iris-Flower-Training-Algorithm',
     data_filter: 'ai',
+    tags: ['PYTHON', 'PANDAS', 'NUMPY', 'MATPLOTLIB.PYPLOT'],
   },
   {
     id: 'clf',
@@ -287,6 +315,7 @@ export let all_projects = [
       ' algorithm is built using NUMPY and OPENCV in PYTHON.',
     repository_link: 'https://github.com/Gsak3l/Car-Lanes-Finder',
     data_filter: 'ai',
+    tags: ['PYTHON', 'NUMPY', 'OPENCV', 'MATPLOTLIB.PYPLOT'],
   },
   {
     id: 'aea',
@@ -300,6 +329,7 @@ export let all_projects = [
       ' but has some of its functionality.',
     repository_link: 'https://github.com/Gsak3l/ECommerce-Java-Room',
     data_filter: 'others',
+    tags: ['ANDROID STUDIO', 'JAVA', 'ROOM API', 'MATERIAL DESIGN'],
   },
   {
     id: 'wfarc',
@@ -314,6 +344,7 @@ export let all_projects = [
       ' so it was a difficult task.',
     data_filter: 'web',
     live_demo: 'https://sdyth.gr',
+    tags: ['WORDPRESS', 'PHP'],
   },
   {
     id: 'thp',
@@ -328,6 +359,6 @@ export let all_projects = [
     data_filter: 'web',
     repository_link: 'https://github.com/Gsak3l/airbnb-clone-app',
     live_demo: 'https://gsak3l.github.io/airbnb-clone-app/index.html',
-    tags: ['abi', 'tabi', 'hohoho'],
+    tags: ['HTML', 'CSS', 'JAVASCRIPT'],
   },
 ];
