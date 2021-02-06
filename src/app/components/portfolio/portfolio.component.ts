@@ -23,4 +23,8 @@ export class PortfolioComponent implements OnInit {
       ];
     }
   }
+  portfolio_clicked(event, item) {
+    var details = document.getElementById('details');
+    console.log(details.getElementsByTagName('h2')[0].innerText);
+  }
 }
