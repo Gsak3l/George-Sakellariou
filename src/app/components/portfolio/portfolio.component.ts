@@ -25,6 +25,13 @@ export class PortfolioComponent implements OnInit {
   }
   portfolio_clicked(event, item) {
     var details = document.getElementById('details');
-    console.log(details.getElementsByTagName('h2')[0].innerText);
+    var lis = '';
+    details.getElementsByTagName('h2')[0].innerText = item['title'];
+    details.getElementsByTagName('p')[0].innerText = item['details'];
+    details.getElementsByTagName('img')[0].src = item['image'];
+    for (var i = 0; i < item['tags'].length; i++) {
+      lis += '<li><span>' + item['tags'][i] + '</span></li>';
+    }
+    details.getElementsByTagName('ul')[0].innerHTML = lis;
   }
 }

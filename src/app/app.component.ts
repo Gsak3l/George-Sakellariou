@@ -316,9 +316,9 @@ export let all_projects = [
     live_demo: 'https://sdyth.gr',
   },
   {
-    id: 'th',
+    id: 'thp',
     category: 'WEB BASED',
-    title: 'TRADE HOUSES',
+    title: 'TRADE HOUSE PROPERTIES',
     header: 'DEVELOPED AND DESIGNED A WEB APP FOR TRADING HOUSES ',
     image:
       'https://res.cloudinary.com/gsak3ll/image/upload/f_auto,q_auto/v1612347499/really%20compresed%20personal%20website/portfolio/airbnb_ecchnb.jpg',
@@ -328,5 +328,6 @@ export let all_projects = [
     data_filter: 'web',
     repository_link: 'https://github.com/Gsak3l/airbnb-clone-app',
     live_demo: 'https://gsak3l.github.io/airbnb-clone-app/index.html',
+    tags: ['abi', 'tabi', 'hohoho'],
   },
 ];
