@@ -26,6 +26,7 @@ export class PortfolioComponent implements OnInit {
   portfolio_clicked(event, item) {
     var details = document.getElementById('details');
     var lis = '';
+    var buttons = '';
     details.getElementsByTagName('h2')[0].innerText = item['title'];
     details.getElementsByTagName('p')[0].innerText = item['details'];
     details.getElementsByTagName('img')[0].src = item['image'];
@@ -33,5 +34,25 @@ export class PortfolioComponent implements OnInit {
       lis += '<li><span>' + item['tags'][i] + '</span></li>';
     }
     details.getElementsByTagName('ul')[0].innerHTML = lis;
+    if (item['repository_link'] && item['live_demo']) {
+      buttons +=
+        '<a class="btn btn-fill" href="' +
+        item['repository_link'] +
+        '" style="margin-right: 5px;" target="_blank">View Repository</a>' +
+        '<a class="btn btn-fill" href="' +
+        item['live_demo'] +
+        '" target="_blank">Live Demo</a>';
+    } else if (item['repository_link']) {
+      buttons +=
+        '<a class="btn btn-fill" href="' +
+        item['repository_link'] +
+        '" style="margin-right: 5px;" target="_blank">View Repository</a>';
+    } else if (item['live_demo']) {
+      buttons =
+        '<a class="btn btn-fill" href="' +
+        item['live_demo'] +
+        '" target="_blank">Live Demo</a>';
+    }
+    document.getElementById('details_links').innerHTML = buttons;
   }
 }
