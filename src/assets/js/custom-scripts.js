@@ -146,15 +146,3 @@
     });
   });
 })(jQuery);
-
-// Fixing Broken On-Scoll for Contact-Form
-$(window).scroll(function (event) {
-  var scroll = $(window).scrollTop();
-  $("#contact").toggleClass(
-    "active",
-    //add 'ok' class when div position match or exceeds else remove the 'ok' class.
-    scroll >= $("#contact").offset().top
-  );
-});
-//trigger the scroll
-$(window).scroll(); //ensure if you're in current position when page is refreshed
