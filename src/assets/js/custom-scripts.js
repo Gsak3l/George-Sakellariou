@@ -146,3 +146,30 @@
     });
   });
 })(jQuery);
+
+/*
+    |=================
+    | Cookie Consent
+    |================
+    */
+window.cookieconsent.initialise({
+  palette: {
+    popup: {
+      background: "#1e1e24",
+      text: "purple",
+    },
+    button: {
+      background: "transparent",
+      text: "#2196F3",
+      border: "#2196F3",
+    },
+  },
+  position: "bottom-right",
+  content: {
+    message:
+      "A cookie is a small text file containing information that a website transfers to your computer’s hard disk for record-keeping purposes" +
+      " and allows us to analyse our site traffic patterns. It does not contain chocolate chips, you cannot eat it and there is no special hidden jar.",
+    link: " ",
+    href: "",
+  },
+});
