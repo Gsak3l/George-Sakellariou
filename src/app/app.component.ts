@@ -132,7 +132,7 @@ export let all_projects = [
       'I enjoy playing simple old-school games like Rock-Paper-Scissors or Tic-Tac-Toe or UNO, so I decided to create' +
       ' a simple Rock-Paper-Scissors game that randomly picks one move over the other two.',
     repository_link: 'https://github.com/Gsak3l/rock-paper-scissors-game',
-    live_demo: 'https://gsak3l.github.io/tic-tac-toe/',
+    live_demo: 'https://gsak3l.github.io/rock-paper-scissors-game/index.html',
     data_filter: 'web',
     tags: ['HTML', 'CSS', 'JAVASCRIPT'],
   },
