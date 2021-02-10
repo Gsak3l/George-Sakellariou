@@ -155,8 +155,8 @@
 window.cookieconsent.initialise({
   palette: {
     popup: {
-      background: "#1e1e24",
-      text: "purple",
+      background: "#202026",
+      text: "#ffffff",
     },
     button: {
       background: "transparent",
@@ -168,7 +168,7 @@ window.cookieconsent.initialise({
   content: {
     message:
       "A cookie is a small text file containing information that a website transfers to your computer’s hard disk for record-keeping purposes" +
-      " and allows us to analyse our site traffic patterns. It does not contain chocolate chips, you cannot eat it and there is no special hidden jar.",
+      " and allows me to analyse my site traffic patterns. It does not contain chocolate chips, you cannot eat it and there is no special hidden jar.",
     link: " ",
     href: "",
   },
