@@ -169,7 +169,7 @@ window.cookieconsent.initialise({
     message:
       "A cookie is a small text file containing information that a website transfers to your computer’s hard disk for record-keeping purposes" +
       " and allows me to analyse my site traffic patterns. It does not contain chocolate chips, you cannot eat it and there is no special hidden jar.",
-    link: " ",
-    href: "",
+    link: "Learn more here.",
+    href: "https://www.termsfeed.com/live/c1cead77-ccf4-4b18-ad2b-0ddb6f267ade",
   },
 });
