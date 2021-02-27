@@ -361,4 +361,18 @@ export let all_projects = [
     live_demo: 'https://gsak3l.github.io/airbnb-clone-app/index.html',
     tags: ['HTML', 'CSS', 'JAVASCRIPT'],
   },
+  {
+    id: 'mdc',
+    category: 'DATA ANALYSIS',
+    title: 'MOVIE DATASET CREATION',
+    header: 'SAVED INFORMATION ABOUT MOVIES ON MULTIPLE FORMATS',
+    image:
+      'https://res.cloudinary.com/gsak3ll/image/upload/v1614447251/really%20compresed%20personal%20website/portfolio/dataset_oiy3lk.png',
+    details:
+      'In this project I scraped data from wikipedia and other websites about some movies. After that I cleaned up the retrieved in order to make' +
+      ' in order to process things easier. This mini-project was made with Python.',
+    data_filter: 'others',
+    repository_link: 'https://github.com/Gsak3l/Movie-Dataset-Creation',
+    tags: ['PYTHON', 'PANDAS', 'BEAUTUFULSOUP', 'REQUESTS', 'PYTEST'],
+  },
 ];
