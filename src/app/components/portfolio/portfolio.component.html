@@ -36,7 +36,19 @@
               <img src="{{project.image}}" alt="{{project.title}}">
               <figcaption class="fig-caption">
                 <i class="fa fa-search"></i>
-                <h5 class="title">{{project.title}}</h5>
+
+                <!--normal title-->
+                <div *ngIf="project.title!=='MOVIE DATASET AND RECOMMENDATION ENGINE'">
+                  <h5 class="title">{{project.title}}</h5>
+                </div>
+                <!--normal title-->
+
+                <!--big title-->
+                <div *ngIf="project.title==='MOVIE DATASET AND RECOMMENDATION ENGINE'">
+                  <h5 class="title" style="font-size: 14px;">{{project.title}}</h5>
+                </div>
+                <!--big title-->
+
                 <span class="sub-title">{{project.category}}</span>
                 <a data-fancybox="" data-src="#details" (click)="portfolio_clicked($event, project)"></a>
               </figcaption>
@@ -69,5 +81,5 @@
       </div>
     </div>
   </div>
-  
+
 </section>

@@ -27,7 +27,7 @@ export class PortfolioComponent implements OnInit {
     var details = document.getElementById('details');
     var lis = '';
     var buttons = '';
-    details.getElementsByTagName('h2')[0].innerText = item['title'];
+    details.getElementsByTagName('h2')[0].innerText = item['header'];
     details.getElementsByTagName('p')[0].innerText = item['details'];
     details.getElementsByTagName('img')[0].src = item['image'];
     for (var i = 0; i < item['tags'].length; i++) {

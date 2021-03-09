@@ -42,18 +42,17 @@ export let all_projects = [
     tags: ['PYTHON', 'SELENIUM'],
   },
   {
-    id: 'dsb',
+    id: 'dubo',
     category: 'AUTOMATION',
-    title: 'DUOLINGO STORIES BOT',
-    header: 'DUOLINGO STORIES USING SELENIUM IN PYTHON',
+    title: 'DUOLINGO BOTS',
+    header: 'DUOLINGO STORIES BOT AND STREAK SAVER USING SELENIUM IN PYTHON',
     image:
       'https://res.cloudinary.com/gsak3ll/image/upload/v1612347500/really%20compresed%20personal%20website/portfolio/duolingo_jyrzbb.png',
     details:
-      'I once wanted to earn an achievement on the popular language learning app, Duolingo.' +
-      ' To do that, I had to finish first on the highest leaderboard and it was a task that requiered a lot of time.' +
-      ' Fortunately I managed to create a bot that solved Duolingo Stories for me, and I got the achievement I wanted.',
+      "I am someone who really enjoys learning. Since 2019 I've been studying Spanish using the popular application, Duolingo. While doing that I also made"
+      + ' a few automation tools to make my life easier, like a Streak Saver Refresher and a Duolingo bot that autocompleted some old stories without me having to do anything.',
     repository_link:
-      'https://github.com/Gsak3l/Web-Scraping/blob/master/duolingo.py',
+      'https://github.com/Gsak3l/Web-Scraping',
     data_filter: 'automation',
     tags: ['PYTHON', 'SELENIUM'],
   },
@@ -364,14 +363,16 @@ export let all_projects = [
   {
     id: 'mdcamr',
     category: 'DATA ANALYSIS',
-    title: 'MOVIE DATASET CREATION AND MOVIE RECOMMENDATION ENGINE',
-    header: 'DEVELOPMENT OF A MOVIE RECOMMENDATION ENGINE AFTER CREATING A MOVIE DATASET',
+    title: 'MOVIE DATASET AND RECOMMENDATION ENGINE',
+    header:
+      'DEVELOPMENT OF A MOVIE RECOMMENDATION ENGINE AFTER CREATING A MOVIE DATASET',
     image:
-      'https://res.cloudinary.com/gsak3ll/image/upload/v1614447251/really%20compresed%20personal%20website/portfolio/dataset_oiy3lk.png',
-    details: 'This project had two different major parts. The first one was the part where I had to take all the information about all these movies from the web'
-    + ' and process it enough to make it easy for me to work with. I had to clean up some data, fix some typos, make transform lists to strings etc. I also had to'
-    + ' find some additional data, and I did that using an api from omdbapi.com. The second part was to build a recommendation engine with the scraped data.'
-    + ' For that I used two different methods, the cosine similarity and also the colaborative filtering',
+      'https://res.cloudinary.com/gsak3ll/image/upload/v1615294202/really%20compresed%20personal%20website/portfolio/movie_dataset_recommendation_vuhb8b.png',
+    details:
+      'This project had two different major parts. The first one was the part where I had to take all the information about all these movies from the web' +
+      ' and process it enough to make it easy for me to work with. I had to clean up some data, fix some typos, make transform lists to strings etc. I also had to' +
+      ' find some additional data, and I did that using an api from omdbapi.com. The second part was to build a recommendation engine with the scraped data.' +
+      ' For that I used two different methods, the cosine similarity and also the colaborative filtering.',
     data_filter: 'others',
     repository_link:
       'https://github.com/Gsak3l/Movie-Dataset-Creation-and-Movie-Recommendation-Engine',
