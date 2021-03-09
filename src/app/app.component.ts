@@ -362,17 +362,19 @@ export let all_projects = [
     tags: ['HTML', 'CSS', 'JAVASCRIPT'],
   },
   {
-    id: 'mdc',
+    id: 'mdcamr',
     category: 'DATA ANALYSIS',
-    title: 'MOVIE DATASET CREATION',
-    header: 'SAVED INFORMATION ABOUT MOVIES ON MULTIPLE FORMATS',
+    title: 'MOVIE DATASET CREATION AND MOVIE RECOMMENDATION ENGINE',
+    header: 'DEVELOPMENT OF A MOVIE RECOMMENDATION ENGINE AFTER CREATING A MOVIE DATASET',
     image:
       'https://res.cloudinary.com/gsak3ll/image/upload/v1614447251/really%20compresed%20personal%20website/portfolio/dataset_oiy3lk.png',
-    details:
-      'In this project I scraped data from wikipedia and other websites about some movies. After that I cleaned up the retrieved in order to make' +
-      ' in order to process things easier. This mini-project was made with Python.',
+    details: 'This project had two different major parts. The first one was the part where I had to take all the information about all these movies from the web'
+    + ' and process it enough to make it easy for me to work with. I had to clean up some data, fix some typos, make transform lists to strings etc. I also had to'
+    + ' find some additional data, and I did that using an api from omdbapi.com. The second part was to build a recommendation engine with the scraped data.'
+    + ' For that I used two different methods, the cosine similarity and also the colaborative filtering',
     data_filter: 'others',
-    repository_link: 'https://github.com/Gsak3l/Movie-Dataset-Creation',
+    repository_link:
+      'https://github.com/Gsak3l/Movie-Dataset-Creation-and-Movie-Recommendation-Engine',
     tags: ['PYTHON', 'PANDAS', 'BEAUTUFULSOUP', 'REQUESTS', 'PYTEST'],
   },
 ];
