@@ -366,7 +366,7 @@ export let all_projects = [
     header:
       'DEVELOPMENT OF A MOVIE RECOMMENDATION ENGINE AFTER CREATING A MOVIE DATASET',
     image:
-      'https://res.cloudinary.com/gsak3ll/image/upload/v1615294202/really%20compresed%20personal%20website/portfolio/movie_dataset_recommendation_vuhb8b.png',
+      'https://res.cloudinary.com/gsak3ll/image/upload/v1615408427/really%20compresed%20personal%20website/portfolio/movie_dataset_recommendation-min_qu0iuh.png',
     details:
       'This project had two different major parts. The first one was the part where I had to take all the information about all these movies from the web' +
       ' and process it enough to make it easy for me to work with. I had to clean up some data, fix some typos, make transform lists to strings etc. I also had to' +
