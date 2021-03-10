@@ -49,10 +49,9 @@ export let all_projects = [
     image:
       'https://res.cloudinary.com/gsak3ll/image/upload/v1612347500/really%20compresed%20personal%20website/portfolio/duolingo_jyrzbb.png',
     details:
-      "I am someone who really enjoys learning. Since 2019 I've been studying Spanish using the popular application, Duolingo. While doing that I also made"
-      + ' a few automation tools to make my life easier, like a Streak Saver Refresher and a Duolingo bot that autocompleted some old stories without me having to do anything.',
-    repository_link:
-      'https://github.com/Gsak3l/Web-Scraping',
+      "I am someone who really enjoys learning. Since 2019 I've been studying Spanish using the popular application, Duolingo. While doing that I also made" +
+      ' a few automation tools to make my life easier, like a Streak Saver Refresher and a Duolingo bot that autocompleted some old stories without me having to do anything.',
+    repository_link: 'https://github.com/Gsak3l/Web-Scraping',
     data_filter: 'automation',
     tags: ['PYTHON', 'SELENIUM'],
   },
@@ -212,7 +211,7 @@ export let all_projects = [
   {
     id: 'sb',
     category: 'AUTOMATION',
-    title: 'STOCKS BUYER',
+    title: 'BOT-TRADER',
     header: 'DEVELOPED A BOT THAT BUYS STOCKS',
     image:
       'https://res.cloudinary.com/gsak3ll/image/upload/v1612347502/really%20compresed%20personal%20website/portfolio/tradingbot_n0ph6m.png',
@@ -297,7 +296,7 @@ export let all_projects = [
     image:
       'https://res.cloudinary.com/gsak3ll/image/upload/v1612347501/really%20compresed%20personal%20website/portfolio/iris_kx8qvn.png',
     details:
-      'Development of a neural network that trains from given data. Build in PYTHON using PANDAS, NUMPY, AND PYPLOT',
+      'Development of a neural network that trains from given data. Built in PYTHON using PANDAS, NUMPY, AND PYPLOT',
     repository_link: 'https://github.com/Gsak3l/Iris-Flower-Training-Algorithm',
     data_filter: 'ai',
     tags: ['PYTHON', 'PANDAS', 'NUMPY', 'MATPLOTLIB.PYPLOT'],
@@ -377,5 +376,20 @@ export let all_projects = [
     repository_link:
       'https://github.com/Gsak3l/Movie-Dataset-Creation-and-Movie-Recommendation-Engine',
     tags: ['PYTHON', 'PANDAS', 'BEAUTUFULSOUP', 'REQUESTS', 'PYTEST'],
+  },
+  {
+    id: 'spf',
+    category: 'ARTIFICIAL INTELLIGENCE',
+    title: 'SHORTEST PATH FINDER',
+    header:
+      'ARTIFICIAL INTELLIGENCE ALGORITHM THAT FINDS THE SHORTEST PATH BETWEEN TWO POINTS',
+    image:
+      'https://res.cloudinary.com/gsak3ll/image/upload/v1615406890/really%20compresed%20personal%20website/portfolio/pathfinder_dxs83u.png',
+    details:
+      'The point of this project was to understand a bit more about how computers think. It was my first Artificial Intelligence project' +
+      " and I learned a lot. I thought this would be a project that wouldn't take more than 5 hours but I found my self spending about 3 times that.",
+    data_filter: 'ai',
+    repository_link: 'https://github.com/Gsak3l/pathfinder',
+    tags: ['PYTHON', 'PYGAME'],
   },
 ];
